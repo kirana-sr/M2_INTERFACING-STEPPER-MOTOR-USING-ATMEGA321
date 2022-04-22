@@ -1,7 +1,9 @@
-# Report#
+# Report
 
 
 INTRODUCTION **
+
+
 Stepper Motors are DC brushless vehicles that could rotate from zero to 
 360 in steps. Stepper motor makes use of digital alerts to rotate the motor 
 in steps and every sign rotates the shaft in constant increment (one step). 
