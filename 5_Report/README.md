@@ -1,7 +1,7 @@
 # Report
 
 
-**INTRODUCTION **
+1.INTRODUCTION **
 Stepper Motors are DC brushless vehicles that could rotate from zero to 
 360 in steps. Stepper motor makes use of digital alerts to rotate the motor 
 in steps and every sign rotates the shaft in constant increment (one step). 
@@ -35,7 +35,7 @@ stator is some other component that's with inside the shape of winding. In
 the diagram below, the centre is the rotor that's surrounded with the aid of 
 using the stator winding. This is referred to as 4 section winding.
 
-METHODOLOGY 
+2 METHODOLOGY 
 2.1 HARDWARE COMPONENT 
  1. STEPPER MOTOR 
  2. ULN2008 
@@ -46,6 +46,7 @@ METHODOLOGY
 7. CONNECTING WIRES
  
 2.1.1. STEPPER MOTOR 
+
 ![image](https://user-images.githubusercontent.com/101106080/164648344-ea2916ad-6e55-491e-a1b3-bf6967d8ec9d.png)
 
 The centre faucet at the stator winding permits the cutting-edge with inside the coil 
@@ -61,6 +62,8 @@ Normally a four step collection is accompanied. When the collection is
 accompanied from step 1 to four, we get a clock clever rotation and whilst it's far
 accompanied from step four to 1, we get a counter clockwise rotation 
 The pin connections for OUTPUT are as follows:
+
+
 ![image](https://user-images.githubusercontent.com/101106080/164648709-ef280418-ec61-4888-8e7b-d61f72fb8bac.png)
 
 2.1.2. ULN2008 
@@ -79,7 +82,9 @@ circuit. All the machine may be powered through 5V supply
 
 ![image](https://user-images.githubusercontent.com/101106080/164648904-bc84794c-77c9-4c29-b11c-16d5e392e91c.png)
 
-The pin connections for INPUT are as follows: 
+The pin connections for INPUT are as follows:
+
+
 ![image](https://user-images.githubusercontent.com/101106080/164649108-1668cab8-e306-4b95-afdf-a5476e87501a.png)
 
 2.1.3. ATMEGA328 
@@ -95,6 +100,8 @@ selectable energy saving modes. The tool operates among 1.8-five.five volts.
 By executing effective commands in a unmarried clock cycle, the tool achieves 
 throughputs drawing close 1 MIPS according to MHz, balancing electricity intake
 and processing speed
+
+
 ![image](https://user-images.githubusercontent.com/101106080/164649528-c309386b-cee9-4f71-a6d5-b2edede7541d.png)
 
 ATmega328 has 1KB Electrically Erasable Programmable Read-Only Memory 
