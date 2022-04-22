@@ -1,6 +1,8 @@
 # Design
 
 CIRCUIT DIAGRAM
+
+
 ![Screenshot 2022-04-22 130205](https://user-images.githubusercontent.com/101106080/164645344-a4c5da35-114b-490d-a769-a5473640c314.png)
 
 WORKING 
@@ -24,5 +26,8 @@ resistance in among leads. From middle leads, we are able to get 1/2 of the
 resistance price of that winding
 
 ALGORITHM
+
+
+
 ![image](https://user-images.githubusercontent.com/101106080/164646409-7527cb14-628f-47ed-bee7-4650d2bad154.png)
 
