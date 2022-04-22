@@ -199,19 +199,32 @@ resistance price of that winding .
 program 
 
 #define F_CPU 8000000UL /* Define CPU Frequency 8MHz */
+
 #include <avr/io.h> /* Include AVR std. library file */
+
 #include <util/delay.h> /* Include delay header file */
 { 
-int period; 
+
+int period;
+
  DDRD = 0x0F; /* Make PORTD lower pins as output */
+ 
  Period = 100; /* Set period in between two steps */
+ 
 While (1) 
+
  { 
+ 
  /* Rotate Stepper Motor clockwise with Half step sequence */
- For (int i=0; i<12;i++) 
+ 
+ For (int i=0; i<12;i++)
+ 
  { 
+ 
  PORTD = 0x09; 
+ 
  _delay_ms (period); 
+ 
  PORTD = 0x08; 
  _delay_ms (period);
 PORTD = 0x0C; 
@@ -254,7 +267,9 @@ ALGORITHM
 ![image](https://user-images.githubusercontent.com/101106080/164650425-46ef4c1a-e83a-4f4c-b9dc-ffb1e1311b75.png)
 
 
-CONCLUSION 
+CONCLUSION
+
+
 The stepper motor may be turned around immediately with the aid of using
 connecting the motor with the energy supply. But with the aid of using growing an 
 Atmega software wherein the stepper motor may be turned around with the aid of 
