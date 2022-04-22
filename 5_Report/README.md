@@ -36,6 +36,8 @@ the diagram below, the centre is the rotor that's surrounded with the aid of
 using the stator winding. This is referred to as 4 section winding.
 
  METHODOLOGY 
+ 
+ 
 2.1 HARDWARE COMPONENT 
  1. STEPPER MOTOR 
  2. ULN2008 
@@ -226,39 +228,73 @@ While (1)
  _delay_ms (period); 
  
  PORTD = 0x08; 
+ 
  _delay_ms (period);
+ 
 PORTD = 0x0C; 
+
  _delay_ms (period); 
- PORTD = 0x04; 
+ 
+ PORTD = 0x04;
+ 
  _delay_ms (period); 
+ 
  PORTD = 0x06; 
+ 
  _delay_ms (period); 
+ 
  PORTD = 0x02; 
- _delay_ms (period); 
+ 
+ _delay_ms (period);
+ 
  PORTD = 0x03; 
+ 
  _delay_ms (period); 
+ 
  PORTD = 0x01; 
- _delay_ms (period); 
+ 
+ _delay_ms (period);
+ 
  } 
+ 
  PORTD = 0x09; /* Last step to initial position */ 
+ 
  _delay_ms (period); 
- _delay_ms (1000); 
+ 
+ _delay_ms (1000);
+ 
  /* Anticlockwise with Full step sequence */
+ 
  for(int i=0;i<12;i++) 
+ 
  { 
+ 
  PORTD = 0x09; 
- _delay_ms (period); 
+ 
+ _delay_ms (period);
+ 
  PORTD = 0x03; 
+ 
  _delay_ms (period); 
+ 
  PORTD = 0x06; 
+ 
  _delay_ms (period); 
+ 
  PORTD = 0x0C; 
- _delay_ms (period); 
+ 
+ _delay_ms (period);
+ 
  } 
- PORTD = 0x09; 
+ 
+ PORTD = 0x09;
+ 
  _delay_ms(period); 
- _delay_ms(1000); 
+ 
+ _delay_ms(1000);
+ 
  } 
+ 
 }
 
 ALGORITHM 
@@ -280,7 +316,11 @@ industries for the automation method. Generally stepper automobiles may be used
 for numerous applications. But with the aid of using programming and rotating the 
 stepper motor, it is able to be relevant for automation method withinside the
 industries.
-REFERENCE 
+
+
+REFERENCE
+
+
 [1] E. M. C. Wong, “A phone-primarily based totally faraway controller for domestic and 
 workplace automation,” IEEE Transactions on Consumer Electronics, vol. 40, no. 1, pp. 28-34, 
 Feb. 1994. 
