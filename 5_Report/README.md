@@ -1,7 +1,7 @@
 # Report#
 
 
-1.INTRODUCTION **
+INTRODUCTION **
 Stepper Motors are DC brushless vehicles that could rotate from zero to 
 360 in steps. Stepper motor makes use of digital alerts to rotate the motor 
 in steps and every sign rotates the shaft in constant increment (one step). 
@@ -67,6 +67,8 @@ The pin connections for OUTPUT are as follows:
 ![image](https://user-images.githubusercontent.com/101106080/164648709-ef280418-ec61-4888-8e7b-d61f72fb8bac.png)
 
 2.1.2. ULN2008 
+
+
 Connect all of the additives as proven with inside the diagram beneath whilst the 
 use of ULN2008. Similarly we can be interfacing it the use of L293D in 
 subsequent step. We are the use of PORTA of Atmega328 to interface stepper 
@@ -88,6 +90,8 @@ The pin connections for INPUT are as follows:
 ![image](https://user-images.githubusercontent.com/101106080/164649108-1668cab8-e306-4b95-afdf-a5476e87501a.png)
 
 2.1.3. ATMEGA328 
+
+
 The high-overall performance Microchip Pico Power 8-bit AVR RISC-primarily 
 based totally microcontroller combines 32KB ISP flash reminiscence with readwhile-write capabilities, 1024B EEPROM, 2KB SRAM, 23 fashionable-motive I/O 
 lines, 32 fashionable motive running registers, 
@@ -130,12 +134,16 @@ allows commands to be performed in each clock cycle. The software reminiscence
 is in-gadget reprogrammable flash reminiscence
 
 4. RESISTER 
+
+
 Resistor is defined as the main purpose of resistor is to reduce the current flow 
 and to lower the voltage in any particular portion of the circuit. It is made of copper 
 wires. Which i is coiled around a ceramic rod and the outer part of the resistor is 
 coated with an insulating paint.
 
 5. SWITCH 
+
+
 The Reload feature of the Cisco Small Business Switches is beneficial whilst
 positive modifications with inside the settings require a reboot to absolutely
 follow the configuration settings, or if the tool isn't always functioning as 
@@ -149,12 +157,16 @@ be reconfigured, or if you overlook the password and now no longer capable
 of get better through any method along with gaining access to the console the 
 use of Telnet, Secure Shell (SSH), or Command Line Interface .
 
-6. GROUND 
+6. GROUND
+
+
 The grounding gadget is a "backup" pathway that offers an change direction for 
 electric modern to observe lower back to "ground" with inside the case of a trouble
 with inside the wiring gadget.
 
 7. CONNECTING WIRES 
+
+
 Connecting wires lets in an electrical cutting-edge to tour from one factor on a 
 circuit to another, due to the fact strength desires a medium via which to move. In 
 the case of computers, wires are embedded into circuit boards,
@@ -163,6 +175,8 @@ CIRCUIT DIAGRAM
 
 
 ![Screenshot 2022-04-22 130205](https://user-images.githubusercontent.com/101106080/164650026-7d7773cd-df6f-407c-89c1-3bac61d07089.png)
+
+
 WORKING 
 Stepper motor is a brushless DC motor that divides the total rotation attitude of 
 360° into some of identical steps.
@@ -183,6 +197,7 @@ resistance in among leads. From middle leads, we are able to get 1/2 of the
 resistance price of that winding .
 
 program 
+
 #define F_CPU 8000000UL /* Define CPU Frequency 8MHz */
 #include <avr/io.h> /* Include AVR std. library file */
 #include <util/delay.h> /* Include delay header file */
@@ -237,6 +252,8 @@ ALGORITHM
 
 
 ![image](https://user-images.githubusercontent.com/101106080/164650425-46ef4c1a-e83a-4f4c-b9dc-ffb1e1311b75.png)
+
+
 CONCLUSION 
 The stepper motor may be turned around immediately with the aid of using
 connecting the motor with the energy supply. But with the aid of using growing an 
