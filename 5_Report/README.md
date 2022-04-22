@@ -1,4 +1,4 @@
-# Report
+# Report#
 
 
 1.INTRODUCTION **
@@ -35,7 +35,7 @@ stator is some other component that's with inside the shape of winding. In
 the diagram below, the centre is the rotor that's surrounded with the aid of 
 using the stator winding. This is referred to as 4 section winding.
 
-2 METHODOLOGY 
+ METHODOLOGY 
 2.1 HARDWARE COMPONENT 
  1. STEPPER MOTOR 
  2. ULN2008 
@@ -160,6 +160,8 @@ circuit to another, due to the fact strength desires a medium via which to move.
 the case of computers, wires are embedded into circuit boards,
 
 CIRCUIT DIAGRAM 
+
+
 ![Screenshot 2022-04-22 130205](https://user-images.githubusercontent.com/101106080/164650026-7d7773cd-df6f-407c-89c1-3bac61d07089.png)
 WORKING 
 Stepper motor is a brushless DC motor that divides the total rotation attitude of 
@@ -232,6 +234,8 @@ PORTD = 0x0C;
 }
 
 ALGORITHM 
+
+
 ![image](https://user-images.githubusercontent.com/101106080/164650425-46ef4c1a-e83a-4f4c-b9dc-ffb1e1311b75.png)
 CONCLUSION 
 The stepper motor may be turned around immediately with the aid of using
