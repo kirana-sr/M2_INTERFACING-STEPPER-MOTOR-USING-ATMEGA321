@@ -1,3 +1,4 @@
+
 <circuit animate="0" reactStep="50" Speed_sps="1000000" type="simulide_0.4" Speed_per="100" noLinAcc="5" Simu_Step_nS="1000">
 
 Unique  Id: Node-1538: 
@@ -113,3 +114,6 @@ Circuit Id: Connector-1539
 <item circPos="0,0" valLabRot="0" hflip="1" endpinid="Resistor-4-lPin" startpinid="Node-1538-2" labelrot="0" circRot="0" Show_id="false" y="-320" itemtype="Connector" rotation="0" boardPos="-1e+06,-1e+06" boardRot="-1000000" x="-332" objectName="Connector-1539" labelx="-16" labely="-24" id="Connector-1539" vflip="1" mainComp="false" enodeid="Circ_eNode-1549" valLabely="0" pointList="-332,-320,-332,-284" valLabelx="0"/>
  
 </circuit>
+
+
+
