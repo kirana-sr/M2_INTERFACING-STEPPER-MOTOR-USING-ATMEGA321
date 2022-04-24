@@ -1,10 +1,18 @@
 # Test Cases
-|Test_ID|Desciption|exp O/P|Actual O/P|Type of Test|
+|Test_ID|Desciption|Exp O/P|Actual O/P|Type of Test|
 |:--:|:--:|:--:|:--:|:--:|
 |TST_1|Stepper motor|Rotate 45 degree clock wise|Rotate 45 degree clock wise|Requirements Based|
 |TST_1|Stepper motor|Rotate 90 degree clock wise|Rotate 90 degree clock wise|Requirements Based|
 |TST_1|Stepper motor|Rotate 135 degree clock wise|Rotate 135 degree clock wise|Requirements Based|
 |TST_1|Stepper motor|Rotate 180 degree clock wise|Rotate 185 degree clock wise|Requirements Based|
+
+
+|Test_ID|Desciption|Exp O/P|Actual O/P|Type of Test|
+|:--:|:--:|:--:|:--:|:--:|
+|TST_1|Stepper motor|Rotate 45 degree Aunti clock wise|Rotate 45 degree  Aunticlock wise|Requirements Based|
+|TST_1|Stepper motor|Rotate 90 degree  Aunti clock wise|Rotate 90 degree  Aunticlock wise|Requirements Based|
+|TST_1|Stepper motor|Rotate 135 degree  Aunti clock wise|Rotate 135 degree  Aunticlock wise|Requirements Based|
+|TST_1|Stepper motor|Rotate 180 degree Aunti clock wise|Rotate 185 degree  Aunticlock wise|Requirements Based|
 
 
 
